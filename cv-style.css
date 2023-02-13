@@ -1,0 +1,100 @@
+#main {
+    width: 800px;
+    background-color: rgb(223, 223, 223);
+    margin: 20px auto;
+    border: 1px solid gray;
+    padding: 40px;
+    font-family: sans-serif;
+    color: rgb(62, 62, 62);
+}
+
+#header {
+    background-color: rgb(187, 187, 187);
+    border-radius: 10px;
+    position: relative;
+    height: 220px;
+}
+
+#infoblock {
+    display: inline-block;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
+#profilepicture {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    box-shadow: black;
+    box-shadow: 5px 5px 10px rgb(56, 56, 56);
+    border-radius: 50%;
+}
+
+#name {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: rgb(53, 53, 53);
+}
+
+#cohort {
+    color: rgb(91, 91, 91);
+}
+
+#educationtable {
+    border-radius: 5px;
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.tablehead {
+    background-color: rgb(139, 139, 139);
+    border-radius: 5px;
+    padding: 10px 0px;
+    color: rgb(225, 225, 225);
+}
+
+.tabledata {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(196, 196, 196);
+}
+
+.certificateshead {
+    background-color: ;
+}
+
+.hobby {
+    background-color: rgb(196, 196, 196);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link {
+    margin: auto;
+    background-color: rgb(21, 146, 187);
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: rgb(231, 231, 231);
+    transition: all 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: rgb(19, 128, 164);
+    transition: all 0.5s;
+}
+
+#linkedin {
+    width: 20%;
+    margin: 50px auto;
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+}
